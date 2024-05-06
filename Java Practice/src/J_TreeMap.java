@@ -1,12 +1,10 @@
 import java.util.*;
-
-public class I_HashMap {
+public class J_TreeMap {
     public static void main(String[] args) {
-        Map<String, Number> rollno= new HashMap<>();
-
+        Map<String, Integer> rollno= new TreeMap<>();
         rollno.put("Vedica", 182);
-        rollno.put("Yug", 190);
-        rollno.put("Yug duplicate", 190);
+        rollno.put("Sanvi", 190);
+        rollno.put("Sanvi duplicate", 190);
 
         System.out.println(rollno);
 
@@ -22,7 +20,7 @@ public class I_HashMap {
 
 
 //        how to iterate
-        for(Map.Entry<String,Number> e: rollno.entrySet()){
+        for(Map.Entry<String,Integer> e: rollno.entrySet()){
             System.out.println(e);
             System.out.println(e.getKey());
             System.out.println(e.getValue());
