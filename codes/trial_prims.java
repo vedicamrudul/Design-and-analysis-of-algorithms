@@ -1,3 +1,4 @@
+package codes;
 import java.util.*;
 
 public class trial_prims {

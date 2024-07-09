@@ -1,3 +1,4 @@
+package codes;
 // three conditions: first they are same: then i++ j++
 // second j>0 then j=LPS[j-1] and third is just else with i++
 

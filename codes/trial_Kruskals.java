@@ -1,3 +1,4 @@
+package codes;
 
 // lets go kruskal=> minimum cost spanning tree. We create a data structure for edge and then sort it out. we inherit the comparitor class? we also need find and union so a parent array and a makeset method
 import java.util.*;

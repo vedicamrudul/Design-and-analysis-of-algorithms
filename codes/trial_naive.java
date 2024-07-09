@@ -1,3 +1,4 @@
+package codes;
 public class trial_naive {
 
     public static void naive(String t, String p) {
