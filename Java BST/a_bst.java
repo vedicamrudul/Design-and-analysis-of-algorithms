@@ -1,7 +1,4 @@
 
-
-
-
 class node{
     int data;
     node left;
